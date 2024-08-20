@@ -1,1 +1,1 @@
-game::Players.LocalPlayer.BazyGameRoblox.Humanoid.WalkSpeed = 50
+print('GUI Активировано')
