@@ -14,20 +14,19 @@ Section:NewLabel("LabelText")
 
 -- Кнопка
 Section:NewButton("ButtonText", "ButtonInfo", function()
-    print("Clicked")
 end)
 
 -- Переключатель
 Section:NewToggle("ToggleText", "ToggleInfo", function(state)
     if state then
-        print("Toggle On")
+        print()
     else
-        print("Toggle Off")
+        print()
     end
 end)
 
 -- Слайдер
-Section:NewSlider("SliderText", "SliderInfo", 500, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
+Section:NewSlider('Максимальная скорость ходьбы', "Включает/Отключает максимальную скорость ходьбы.", 500, 0, function(s) -- 500 (Макс. значение) | 0 (Мин. значение)
     game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = s
 end)
 
