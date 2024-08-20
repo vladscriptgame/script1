@@ -4,7 +4,7 @@ local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/Roboj
 local Window = Library.CreateLib("MM2", "RJTheme3")
 
 -- Секция
-local Tab = Window:NewTab("TabName")
+local Tab = Window:NewTab("Основное")
 
 -- Подсекция
 local Section = Tab:NewSection("Section Name")
